@@ -1,0 +1,9 @@
+# <kallisto:0.51.1 | KaiyuanHan | 2025-03-12>
+ARGS
+    <else>
+        kallisto --help
+    <main>
+        kallisto ::*APP-ARGS*::
+RUN
+    <container:taf-kallisto-v0.51.1:ghcr.io/taffish-org/kallisto:0.51.1>
+        ::*MAIN*::

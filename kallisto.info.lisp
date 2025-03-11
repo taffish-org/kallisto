@@ -1,0 +1,7 @@
+(:name           "kallisto")
+(:repo           "taffish-org/kallisto")
+(:author         "KaiyuanHan")
+(:version        "0.51.1")
+(:intro          "Near-optimal RNA-Seq quantification.")
+(:dependencies)
+(:functions      "kallisto")
