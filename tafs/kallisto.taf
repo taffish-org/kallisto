@@ -1,7 +1,7 @@
 +TOOL:kallisto
 ARGS
     <else>
-        kallisto --help
+        kallisto
     <main>
         kallisto ::*APP-ARGS*::
 RUN
